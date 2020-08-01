@@ -6,7 +6,7 @@ To connect to a target computer remotely. Performing functions like executing sy
 * Web sockets are used to establish the connnection
 * Json module is used to serialise the data
 ## Features
-* The backdoor runs without showing any command prompt
+* The backdoor runs without showing any command prompt(when packaged in an image or document)
 * The backdoor automatically creates a registry entry which allows it establish connection each time the system restarts
 * The files are upoaded and downloaded without the loss of any data
 * User can navigate between different directories of the target computer
